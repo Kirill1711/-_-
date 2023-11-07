@@ -1,5 +1,5 @@
 .main {
-    background-image: url('/img/section1/section1.png');
+    background-image: url('/img/section/section1.png');
     background-color: #85F0F0;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@
 
 @media screen and (max-width: 992px) {
    .main {
-    background-image: url('/img/section1/section1-768.png');
+    background-image: url('/img/section/section1-768.png');
    }
    .main_title {
     padding: 10px;
@@ -31,7 +31,7 @@
 
 @media screen and (max-width: 768px) {
     .main {
-     background-image: url('/img/section1/section1-320.png');
+     background-image: url('/img/section/section1-320.png');
     }
     .main_title {
         font-size: 14px;
