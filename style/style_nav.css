@@ -1,0 +1,131 @@
+*,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #4BA8EC;
+}
+
+.nav {
+    background-color: #9DC2ED;
+}
+.container {
+    margin: auto;
+    width: 1200px;
+    color: #040404;
+}
+
+.nav_menu {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_img {
+    margin-left: 100px;
+    width: 100px;
+    height: 57px;
+    border-radius: 15px;
+}
+.menu {
+    margin-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 700px;
+    text-align: center;
+}
+.menu_item {
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: #040404;
+    font-size: 24px;
+}
+
+.menu_item:hover {
+    color: #FCFF75;
+}
+.burger_menu {
+    display: none;
+    margin-right: 10px;
+}
+.burger_menu-icon {
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+.icon_close {
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+.burger_menu-slider {
+    padding-top: 10px;
+    display: none;
+    transition: 0.2s ease;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    gap: 15px;
+    opacity: 0;
+    margin-top: -220px;
+    margin-right: 40px;
+}
+.open {
+    opacity: 1;
+    margin-top: 0;
+    margin-right: 0;
+}
+.burger_item {
+    color: #040404;
+    text-decoration: none;
+    font-size: 24px;
+}
+.burger_item:hover {
+    color: #FCFF75;
+}
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 992px;
+    }
+    .logo_img {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 768px;
+    }
+    .logo_img {
+        margin-left: 0;
+    }
+    .menu {
+        margin-left: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .container {
+        width: 320px;
+    }
+    .logo_img {
+        margin-left: 15px;
+    }
+    .menu {
+        display: none;
+    }
+    .nav_menu {
+        justify-content: space-between;
+    }
+    .burger_menu {
+        display: block;
+    }
+    .burger_menu-slider {
+        display: flex;
+    }
+}

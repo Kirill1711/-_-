@@ -1,0 +1,40 @@
+.main {
+    background-image: url('/img/section1/section1.png');
+    background-color: #85F0F0;
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+}
+.main_title {
+    text-align: justify;
+    font-size: 24px;
+    font-family: 'Raleway', sans-serif;
+    color:#000000;
+    padding: 20px;
+    font-weight: 400;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+   .main {
+    background-image: url('/img/section1/section1-768.png');
+   }
+   .main_title {
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+   }
+}
+
+
+@media screen and (max-width: 768px) {
+    .main {
+     background-image: url('/img/section1/section1-320.png');
+    }
+    .main_title {
+        font-size: 14px;
+        text-align: center;
+       }
+}
